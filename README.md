@@ -12,5 +12,6 @@ The code followed the following sequence of steps.
 ### (4) Reverse, rotate and proceed towards the scoring hole
 ### (5) Push ball into the scoring hole and release the ball
 Since the wheels were also motors, movement was controlled by 650 and 850 values. These identified which direction the motor went (clockwise or counterclockwise), impacting how and where the robot moved. After the ball is collected and until it was dropped, the program continued to push the ball into the static arm to prevent it from dropping. This issue was discovered during testing since the ball kept falling out unless the rotating arm kept pushing it. 
+The logic I used for the code were iterative structures (for loops) to ensure each of the steps repeated for the needed amount (each pulse of motor)
 
 ## Overall Outcome: Ball was able to successfully collect the ball and drop it
